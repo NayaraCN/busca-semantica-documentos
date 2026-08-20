@@ -21,8 +21,11 @@ def buscar_palavra(documentos, termo):
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
+#model = SentenceTransformer(
+#    "sentence-transformers/all-MiniLM-L6-v2")
+
 model = SentenceTransformer(
-    "sentence-transformers/all-MiniLM-L6-v2"
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 )
 
 

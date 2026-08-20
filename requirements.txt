@@ -1,1 +1,2 @@
-pip freeze > requirements.txt
+sentence-transformers
+scikit-learn
